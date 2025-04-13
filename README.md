@@ -34,10 +34,12 @@ Things which did not make it in yet, but I would love to have:
   "nhu/patchr.nvim",
   ---@type patchr.config
   opts = {
-    ["generic_plugin.nvim"] = {
-        "/path/to/you/git.patch",
-        "/path/to/you/other/git.patch",
-    }
+    plugins = {
+        ["generic_plugin.nvim"] = {
+            "/path/to/you/git.patch",
+            "/path/to/you/other/git.patch",
+        },
+    },
   },
 }
 ```
